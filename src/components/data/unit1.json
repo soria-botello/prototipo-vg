@@ -1,0 +1,435 @@
+{
+  "id": 1,
+  "name": "Unidad 1",
+  "description": "La experiencia de si",
+  "questions": [
+    {
+      "type": "name-question",
+      "question": "Ingresa tus datos"
+    },
+    {
+      "id": 1,
+      "type": "true-false-text",
+      "question": "Se dedica a analizar el comportamiento moral del ser humano, es decir, las acciones y hábitos que pueden calificarse como buenos o malos, correctos e incorrectos.",
+      "answer": true,
+      "options":[
+        {
+            "id": 1,
+            "option": "Ética",
+            "value": true
+        },
+        {
+            "id": 2,
+            "option": "Filosofía",
+            "value": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "true-false-image",
+      "question": "La lógica, es aquella ciencia que se encarga del estudio de los razonamientos, pensamientos y argumentación.",
+      "answer": true,
+      "options":[
+          {
+            "id": 1,
+            "image": "up.png",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "down.png",
+            "value": false
+          }
+        ]
+    },
+    {
+      "id": 3,
+      "type": "options-text",
+      "question": "Ciencia derivada de la filosofía que se encarga del estudio de todo aquello que es bonito a la vista, todo aquello que se considera arte y su relación con la realidad.",
+      "answer": 3,
+      "options": [
+        {
+          "id": 1,
+          "option": "Lógica"
+        },
+        {
+          "id": 2,
+          "option": "Historia"
+        },
+        {
+          "id": 3,
+          "option": "Estética"
+        },
+        {
+          "id": 4,
+          "option": "Utilitarismo"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "options-image",
+      "question": "¿Cuál fue el tema principal de la filosofía antigua?",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "true-false-text",
+      "question": "El conocimiento, es el tema principal de la filosofía moderna",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "felicidad",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "tristeza",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "true-false-image",
+      "question": "Filósofo que nos dice que los hombres somos accedemos al mundo de manera parcial y restringida, a través de impresiones que le muestran las cosas de manera superficial.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "options-text",
+      "question": "Son aquellos impulsos negativos que te llevan a cometer acciones dañinas para tu persona y para los demás.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Vicio"
+        },
+        {
+          "id": 2,
+          "option": "Pasión"
+        },
+        {
+          "id": 3,
+          "option": "Amor"
+        },
+        {
+          "id": 4,
+          "option": "Descontrol"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "options-image",
+      "question": "Son aquellas energías positivas que te ayudan a crecer y vivir de una manera plena.",
+      "answer": 3,
+      "options": [
+        {
+            "id": 1,
+            "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "true-false-text",
+      "question": "Filósofo importante que afirmaba que no se trataba de suprimir la influencia de las pasiones, sino de tener la capacidad de poder gobernarlas y no dejarte llevar por ellas.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Aristóteles",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "tristeza",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "true-false-image",
+      "question": "FILOSOFÍA, significa, Amor a la sabiduría.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "options-text",
+      "question": "Que se considera un precursor del cuidado de sí, ya que promovía la reflexión y la autoconciencia como medios para vivir de manera más virtuosa y sabia.",
+      "answer": 4,
+      "options": [
+        {
+          "id": 1,
+          "option": "Aristoteles"
+        },
+        {
+          "id": 2,
+          "option": "Epicuro"
+        },
+        {
+          "id": 3,
+          "option": "Platón"
+        },
+        {
+          "id": 4,
+          "option": "Sócrates"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "options-image",
+      "question": "Define 3 maneras de honrar la frase “El cuidado de ti mismo",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "true-false-text",
+      "question": "La Gratitud consiente en hacerte de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas…",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "felicidad",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "tristeza",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "true-false-image",
+      "question": "Regulación emocional, es aprender de tus emociones de manera saludable, reconocerlas, aceptarlas y expresarlas de manera asertiva y gestionar constructivamente aquellas que son placenteras, es la definición de:",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "options-text",
+      "question": "Emociones fuertes y profundas que poseemos, ejemplo de ellas serían el amor, la ira o el  miedo.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Pasiones"
+          },
+        {
+          "id": 2,
+          "option": "Vicio"
+        },
+        {
+          "id": 3,
+          "option": "Virtudes"
+        },
+        {
+          "id": 4,
+          "option": "Amor"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "options-image",
+      "question": "Cualidades morales que valoramos y buscamos en nuestra persona y en quienes nos rodean, son cualidades esenciales para una vida buena y plena, nos ayudan a vivir de acuerdo con nuestros valores y tomar decisiones correctas y justas.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "true-false-text",
+      "question": "Según Aristóteles ¿cuáles son los 3 tipos de almas?",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Vengativa, Sensitiva y racional.",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "Generocidad, Sensible y Justo",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "true-false-image",
+      "question": "La hisotria, es el estudio del pasado de la humanidad y de la sociedad para comprender como han evolucionado las relaciones entre distintos grupos humanos.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        } 
+      ]
+    },
+    {
+      "id": 19,
+      "type": "options-text",
+      "question": 	"Immanuel Kant es el filósofo que afirmaba que el problema no es lo que conocemos, sino como lo conocemos, pues el sujeto no encuentra objeto de conocimiento, sino que lo construye. Fue autor de obras muy importantes como la crítica de la razón pura, crítica de la razón práctica y crítica del juicio.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Lógica"
+        },
+        {
+            "id": 2,
+            "option": "Estética"
+        },
+        {
+            "id": 3,
+            "option": "Eudemonismo"
+        },
+        {
+            "id": 4,
+            "option": "Utilitarismo"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "options-image",
+      "question": "Es aquel valor objetivo de la naturaleza, lo que significa que el saber debe coincidir con la realidad",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "type": "open-question",
+      "question": "Que significa Filosofia?"
+    }
+  ]
+}

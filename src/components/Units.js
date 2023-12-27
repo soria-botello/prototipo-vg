@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import unitsData from  './data/unitsData.json'
 
-
 const Units = () => {
   const units = unitsData
 

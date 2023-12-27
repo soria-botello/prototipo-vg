@@ -1,0 +1,427 @@
+{
+  "id": 1,
+  "name": "Unidad 2",
+  "description": "La experiencia de si",
+  "questions": [
+    {
+      "id": 1,
+      "type": "true-false-text",
+      "question": "Sensación de bienestar o satisfacción que experimenta el ser humano en respuesta a ciertos estímulos; puede ser una experiencia física o mental y puede variar en intensidad y duración.",
+      "answer": true,
+      "options":[
+        {
+            "id": 1,
+            "option": "Placer",
+            "value": true
+        },
+        {
+            "id": 2,
+            "option": "Filosofía",
+            "value": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "true-false-img",
+      "question": "Acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
+      "answer": true,
+      "options":[
+          {
+            "id": 1,
+            "image": "image.jpg",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "image.jpg",
+            "value": false
+          }
+        ]
+    },
+    {
+      "id": 3,
+      "type": "options-text",
+      "question": "Capacidad de la persona para decidir de manera racional entre múltiples opciones.",
+      "answer": 3,
+      "options": [
+        {
+          "id": 1,
+          "option": "Lógica"
+        },
+        {
+          "id": 2,
+          "option": "Felicidad"
+        },
+        {
+          "id": 3,
+          "option": "Libertad"
+        },
+        {
+          "id": 4,
+          "option": "Opresión"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "options-img",
+      "question": "Se refiere al estado emocional de satisfacción de una persona, la sensación de bienestar y la realización que experimenta el ser humano cuando alcanza sus propósitos y deseos. Es un estado anímico relacionado con aspectos subjetivos de cada individuo, y por tanto, expresado de maneras distintas de acuerdo con la personalidad y carácter de cada persona.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "true-false-text",
+      "question": "Surgen a partir de la división social del trabajo de la propiedad privada de los medios de producción y de la explotación de hombre por el hombre.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Clases sociales",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "tristeza",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "true-false-img",
+      "question": "Es aquel concepto que se refiere al uso indebido de alguien o algo para obtener un beneficio propio. Puede ser económica, política, social o cultural y puede ser ejercida por individuos, grupos o estados.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "options-text",
+      "question": "Se refiere a la dominación de un grupo por parte de otro a través de medios políticos, económicos o sociales; puede ser ejercida mediante violencia física, discriminación, explotación y marginación. También se puede entender como una forma de violación de los derechos humanos y de la dignidad de las personas sometidas.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Opresión"
+        },
+        {
+          "id": 2,
+          "option": "Pasión"
+        },
+        {
+          "id": 3,
+          "option": "Amor"
+        },
+        {
+          "id": 4,
+          "option": "Descontrol"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "options-img",
+      "question": "Concepto que señala la manera en que una persona se siente separada de sí misma y de su entorno, debido a factores externos, es decir, se refiere a la forma en que las personas oprimidas se sienten aisladas y desconectadas de la sociedad, de sus propios intereses y necesidades.",
+      "answer": 3,
+      "options": [
+        {
+            "id": 1,
+            "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "true-false-text",
+      "question": "Se refiere a conocer nuestra apariencia física, el entendimiento de nuestros rasgos internos, valores morales y filosofía de vida, lo cual ayuda a comprender mejor como pensamos y actuamos y nos permite tomar decisiones informadas en el futuro.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Autoenunciarnos",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "true-false-img",
+      "question": "Conjunto de características que nos hacen personas únicas, nos define como seres individuales y nos distingue de los demás.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "options-text",
+      "question": "Ausencia o menosprecio de la moralidad, la bondad y la virtud, así como la intención de hacer daño o de actuar de manera egoísta y deshonesta.",
+      "answer": 4,
+      "options": [
+        {
+          "id": 1,
+          "option": "Aristoteles"
+        },
+        {
+          "id": 2,
+          "option": "Epicuro"
+        },
+        {
+          "id": 3,
+          "option": "Platón"
+        },
+        {
+          "id": 4,
+          "option": "Maldad"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "options-img",
+      "question": "Teórica ética propuesta por Aristóteles, la cual nos dice que el bien es el medio para llegar a algo y al mismo tiempo se refiere al bien como fin, es decir, el bien que desea por sí mismo.",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "true-false-text",
+      "question": "Teoría proveniente del filósofo Epicuro, quien asocia el bien con el placer y el mal con el dolor.",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Hedonismo",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "tristeza",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "true-false-img",
+      "question": "Teoría propuesta por John Stuart Mill, la cual propone que el bien radica en aquello que es útil al mayor número posible de personas. ",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "options-text",
+      "question": "En la filosofía griega antigua ¿A qué se relaciona la potencia?",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Con la naturaleza y el movimiento de los cuerpos"
+          },
+        {
+          "id": 2,
+          "option": "Vicio"
+        },
+        {
+          "id": 3,
+          "option": "Virtudes"
+        },
+        {
+          "id": 4,
+          "option": "Amor"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "options-img",
+      "question": "En la filosofía aristotélica, ¿A qué se relaciona la potencia? ",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "true-false-text",
+      "question": "En la filosofía medieval ¿A qué se relaciona la potencia?",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "option": "Creación y conservación del mundo por parte de Dios.",
+          "value": true
+        },
+        {
+          "id": 2,
+          "option": "Generocidad, Sensible y Justo",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "true-false-img",
+      "question": "En la filosofía moderna ¿A qué se relaciona la potencia?",
+      "answer": true,
+      "options":[
+        {
+          "id": 1,
+          "image": "image.jpg",
+          "value": true
+        },
+        {
+          "id": 2,
+          "image": "image.jpg",
+          "value": false
+        } 
+      ]
+    },
+    {
+      "id": 19,
+      "type": "options-text",
+      "question": 	"¿Qué es la potencia?",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "option": "Concepto fundamental para entender cómo funcionan las relaciones sociales y como se construyen lasa identidades individuales y colectivas"
+        },
+        {
+            "id": 2,
+            "option": "Estética"
+        },
+        {
+            "id": 3,
+            "option": "Eudemonismo"
+        },
+        {
+            "id": 4,
+            "option": "Utilitarismo"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "options-img",
+      "question": "Según la filosofía, ¿Qué significa ser esclavo de tu ser?",
+      "answer": 1,
+      "options": [
+        {
+          "id": 1,
+          "image": "image.jpg"
+        },
+        {
+          "id": 2,
+          "image": "image.jpg"
+        },
+        {
+          "id": 3,
+          "image": "image.jpg"
+        },
+        {
+          "id": 4,
+          "image": "image.jpg"
+        }
+      ]
+    }
+  ]
+}

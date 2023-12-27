@@ -1,0 +1,428 @@
+{
+    "id": 1,
+    "name": "Unidad 3",
+    "description": "La experiencia de si",
+    "questions": [
+      {
+        "id": 1,
+        "type": "true-false-text",
+        "question": "La Literatura es: la disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.Disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.",
+        "answer": true,
+        "options":[
+          {
+              "id": 1,
+              "option": "Ética",
+              "value": true
+          },
+          {
+              "id": 2,
+              "option": "Filosofía",
+              "value": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "true-false-img",
+        "question": "La argumentaación, tiene como fin persuadir al destinatario del punto de vista que se tiene sobre un asunto, o bien convencerlo de la falsedad o veracidad de una teoría, para lo cual debe aportar determinadas razones.",
+        "answer": true,
+        "options":[
+            {
+              "id": 1,
+              "image": "image.jpg",
+              "value": true
+            },
+            {
+              "id": 2,
+              "image": "image.jpg",
+              "value": false
+            }
+          ]
+      },
+      {
+        "id": 3,
+        "type": "options-text",
+        "question": "Es aquella rama de la filosofía que estudia las formas y principios generales que rigen el conocimiento, razonamiento, argumentación y pensamiento humano.",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "option": "Lógica"
+          },
+          {
+            "id": 2,
+            "option": "Historia"
+          },
+          {
+            "id": 3,
+            "option": "Estética"
+          },
+          {
+            "id": 4,
+            "option": "Robotica"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "options-img",
+        "question": "Es aquella disciplina que ayuda a mejorar el análisis de nuestros argumentos desde una perspectiva que en conjunto con la lógica complementa el intercambio de ideas y la comunicación, sus objetivos se enmarcan en una intención argumentativa (Persuadir, convencer, cuestionar, etc…)",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "image": "image.jpg"
+          },
+          {
+            "id": 2,
+            "image": "image.jpg"
+          },
+          {
+            "id": 3,
+            "image": "image.jpg"
+          },
+          {
+            "id": 4,
+            "image": "image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "true-false-text",
+        "question": "Es llevarnos a la práctica en algo que estamos de acuerdo.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "option": "Cuestionar",
+            "value": true
+          },
+          {
+            "id": 2,
+            "option": "Demostrar",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "true-false-img",
+        "question": "Significa estar de acuerdo con una afirmación",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "image": "image.jpg",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "image.jpg",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "options-text",
+        "question": "Dudar de cierta información",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "option": "Persuadir"
+          },
+          {
+            "id": 2,
+            "option": "Deliberar"
+          },
+          {
+            "id": 3,
+            "option": "Convencer"
+          },
+          {
+            "id": 4,
+            "option": "Polemizar"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "options-img",
+        "question": "Mantener una discusión",
+        "answer": 3,
+        "options": [
+          {
+              "id": 1,
+              "image": "image.jpg"
+          },
+          {
+            "id": 2,
+            "image": "image.jpg"
+          },
+          {
+            "id": 3,
+            "image": "image.jpg"
+          },
+          {
+            "id": 4,
+            "image": "image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "true-false-text",
+        "question": "Tomar una decisión después de ver los pros y los contras",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "option": "Convencer",
+            "value": true
+          },
+          {
+            "id": 2,
+            "option": "Polemizar",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "true-false-img",
+        "question": "Hacer visible que determinada cosa es verdad o se cumple generalmente por medio de algún razonamiento o acción.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "image": "image.jpg",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "image.jpg",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "options-text",
+        "question": "Es aquel que nos permite compartir perspectivas y conocimientos con los demás, lo que ayuda a desarrollar una mejor comprensión y respeto mutuo; Cuando estamos seguros de nuestras opiniones estamos abiertos a ideas y nuevos puntos de vista.",
+        "answer": 4,
+        "options": [
+          {
+            "id": 1,
+            "option": "Cuestionar"
+          },
+          {
+            "id": 2,
+            "option": "Persuadir"
+          },
+          {
+            "id": 3,
+            "option": "Argumentación"
+          },
+          {
+            "id": 4,
+            "option": "Diálogo"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "options-img",
+        "question": "¿Cuáles son los puntos para construir un argumento?",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "image": "image.jpg"
+          },
+          {
+            "id": 2,
+            "image": "image.jpg"
+          },
+          {
+            "id": 3,
+            "image": "image.jpg"
+          },
+          {
+            "id": 4,
+            "image": "image.jpg"
+          },
+          {
+            "id": 5,
+            "image": "image.jpg"
+          },
+          {
+            "id": 6,
+            "image": "image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "true-false-text",
+        "question": "Razonamiento incorrecto porque las ideas que trata de justificar carecen de sustento.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "option": "Falacia",
+            "value": true
+          },
+          {
+            "id": 2,
+            "option": "tristeza",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "true-false-img",
+        "question": "Comunicación asertiva: sucede cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.Cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "image": "image.jpg",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "image.jpg",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "options-text",
+        "question": "Disciplina científica que estudia al ser humano en todas sus dimensiones: cultural, social, económica, política, biológica y evolutiva.",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "option": "Antropología"
+            },
+          {
+            "id": 2,
+            "option": "Diálogo"
+          },
+          {
+            "id": 3,
+            "option": "Argumentación"
+          },
+          {
+            "id": 4,
+            "option": "Literatura"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "options-img",
+        "question": "Es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales.",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "image": "image.jpg"
+          },
+          {
+            "id": 2,
+            "image": "image.jpg"
+          },
+          {
+            "id": 3,
+            "image": "image.jpg"
+          },
+          {
+            "id": 4,
+            "image": "image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "type": "true-false-text",
+        "question": "Tipo de antropología que se centra en el estudio de como las sociedades producen, distribuyen y consumen bienes y servicios.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "option": "Antropología económica",
+            "value": true
+          },
+          {
+            "id": 2,
+            "option": "Antropología cultural",
+            "value": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "true-false-img",
+        "question": "La Fase de confrontación:es aquella fase dentro del diálogo argumentativo donde el problema del diálogo debe ser anunciado o acordado para que sea clara cuál es la meta del diálogo.",
+        "answer": true,
+        "options":[
+          {
+            "id": 1,
+            "image": "image.jpg",
+            "value": true
+          },
+          {
+            "id": 2,
+            "image": "image.jpg",
+            "value": false
+          } 
+        ]
+      },
+      {
+        "id": 19,
+        "type": "options-text",
+        "question": 	"Es aquella fase dentro del diálogo argumentativo donde cada parte tiene la obligación, utilizando los métodos apropiados, de contribuir para llegar a la meta del diálogo.",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "option": "Fase de argumentación"
+          },
+          {
+              "id": 2,
+              "option": "Fase de confrontación"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "type": "options-img",
+        "question": "Tipo de argumento en el que a partir de la observación de una propiedad definida en un número suficiente de individuos de una clase determinada, generaliza en la conclusión la propiedad observada y le atribuye a todos los miembros de esa misma clase.",
+        "answer": 1,
+        "options": [
+          {
+            "id": 1,
+            "image": "image.jpg"
+          },
+          {
+            "id": 2,
+            "image": "image.jpg"
+          },
+          {
+            "id": 3,
+            "image": "image.jpg"
+          },
+          {
+            "id": 4,
+            "image": "image.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
