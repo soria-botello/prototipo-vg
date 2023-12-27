@@ -51,6 +51,8 @@ const Unit = () => {
   const [text, setText] = useState('');
   const [error, setError] = useState(null);
   const [showNotification, setShowNotification] = useState(false);
+  const [showNotificationMsg, setShowNotificationMsg] = useState('');
+  const [showNotificationPath, setShowNotificationPath] = useState('');
   const [examIsComplete, setExamIsComplete] = useState(false);
 
   // Function to update exam data
@@ -206,6 +208,14 @@ const Unit = () => {
   };
 
   const handleCloseWindow = () => {
+    setShowNotificationMsg('¿Estás seguro de que quieres cerrar esta ventana?');
+    setShowNotificationPath('/');
+    setShowNotification(true);
+  };
+
+  const handleNextUnit = () => {
+    setShowNotificationMsg('¿Estás seguro de que quieres ir a unidades?');
+    setShowNotificationPath('/unidades');
     setShowNotification(true);
   };
 
@@ -220,11 +230,11 @@ const Unit = () => {
   const isLastSlide = currentSlide === slideshowContent.length - 1;
 
   return (
-    <div className="p-4">
+    <div className="p-4 h-600">
       <h2 className="text-4xl font-bold mb-4">{unitData.name}: {unitData.description}</h2>
 
       {!examIsComplete && (
-      <div className="bg-white p-4 shadow-md rounded-md">
+      <div className="bg-white p-4 shadow-md rounded-md h-[500px]">
         <div>{loadQuestion()}</div>
       </div>
       )}
@@ -258,6 +268,15 @@ const Unit = () => {
         >
           Imprimir
         </button>
+        { unitId != 3 && (
+        <button
+          className="bg-blue-500 text-white px-4 py-2 rounded-full mr-2"
+          onClick={handleNextUnit}
+        >
+          Ir a Unidades
+        </button>
+        )}
+        
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded-full"
           onClick={handleCloseWindow}
@@ -291,9 +310,9 @@ const Unit = () => {
             Advertencia
           </div>
           <div class="border border-t-0 border-yellow-400 rounded-b bg-yellow-100 px-4 py-3 text-yellow-700">
-            <p>¿Estás seguro de que quieres cerrar esta ventana?
+            <p>{showNotificationMsg}
             <Link
-              to="/"
+              to={showNotificationPath}
               className="ml-4 bg-blue-500 text-white px-4 py-2 rounded-full"
             >
               Si

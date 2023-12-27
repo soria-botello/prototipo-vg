@@ -4,6 +4,10 @@
   "description": "La experiencia de si",
   "questions": [
     {
+      "type": "name-question",
+      "question": "Ingresa tus datos"
+    },
+    {
       "id": 1,
       "type": "true-false-text",
       "question": "Sensación de bienestar o satisfacción que experimenta el ser humano en respuesta a ciertos estímulos; puede ser una experiencia física o mental y puede variar en intensidad y duración.",
@@ -422,6 +426,10 @@
           "image": "image.jpg"
         }
       ]
+    },
+    {
+      "type": "open-question",
+      "question": "Que significa Filosofia?"
     }
   ]
 }
