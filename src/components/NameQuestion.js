@@ -4,12 +4,12 @@ const NameQuestion = ({ data, name, setName, group, setGroup, handleExamData }) 
 
     const handleNameChange = (event) => {
         setName(event.target.value);
-        handleExamData()
+        handleExamData();
     };
     
     const handleGroupChange = (event) => {
         setGroup(event.target.value);
-        handleExamData()
+        handleExamData();
     };
 
     return (
@@ -29,14 +29,18 @@ const NameQuestion = ({ data, name, setName, group, setGroup, handleExamData }) 
                 </div>
                 <div>
                     <label className="block mb-2">Escribe tu grupo</label>
-                    <input
-                    className="w-full px-3 py-2 border rounded-lg shadow-md"
-                    type="text"
-                    value={group}
-                    onChange={handleGroupChange}
-                    onBlur={handleGroupChange}
-                    placeholder="Grupo"
-                    />
+                    <select
+                        className="w-full px-3 py-2 border rounded-lg shadow-md"
+                        value={group}
+                        onChange={handleGroupChange}
+                        onBlur={handleGroupChange}
+                    >
+                    {Array.from({ length: 11 }, (_, index) => String.fromCharCode(65 + index)).map((letter) => (
+                        <option key={letter} value={letter}>
+                            {letter}
+                        </option>
+                    ))}
+                    </select>
                 </div>
             </div>
         </div>

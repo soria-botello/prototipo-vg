@@ -4,7 +4,7 @@ const OptionsImageQuestion = ({ data, onAnswerSelect, selectedAnswer }) => {
 
     return (
         <div className="bg-white p-4 rounded-lg">
-            <div className="text-xl font-semibold mb-4">{data.id}: {data.question}</div>
+            <div className="text-xl font-semibold mb-4">{data.id -1}: {data.question}</div>
             <div className="grid grid-cols-2 gap-4">
                 {data.options.map((option, index) => (
                     <div

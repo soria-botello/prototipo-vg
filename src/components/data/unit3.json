@@ -33,12 +33,12 @@
         "options":[
             {
               "id": 1,
-              "image": "image.jpg",
+              "image": "up.png",
               "value": true
             },
             {
               "id": 2,
-              "image": "image.jpg",
+              "image": "down.png",
               "value": false
             }
           ]
@@ -117,12 +117,12 @@
         "options":[
           {
             "id": 1,
-            "image": "image.jpg",
+            "image": "up.png",
             "value": true
           },
           {
             "id": 2,
-            "image": "image.jpg",
+            "image": "down.png",
             "value": false
           }
         ]
@@ -201,12 +201,12 @@
         "options":[
           {
             "id": 1,
-            "image": "image.jpg",
+            "image": "up.png",
             "value": true
           },
           {
             "id": 2,
-            "image": "image.jpg",
+            "image": "down.png",
             "value": false
           }
         ]
@@ -293,12 +293,12 @@
         "options":[
           {
             "id": 1,
-            "image": "image.jpg",
+            "image": "up.png",
             "value": true
           },
           {
             "id": 2,
-            "image": "image.jpg",
+            "image": "down.png",
             "value": false
           }
         ]
@@ -377,12 +377,12 @@
         "options":[
           {
             "id": 1,
-            "image": "image.jpg",
+            "image": "up.png",
             "value": true
           },
           {
             "id": 2,
-            "image": "image.jpg",
+            "image": "down.png",
             "value": false
           } 
         ]

@@ -28,20 +28,59 @@ const Unit = () => {
   }
 
   const unitData = loadUnitData(unitId);
+  
+  const randomizeQuestions = (questions) => {
+    if (!Array.isArray(questions) || questions.length < 3) {
+      return questions;
+    }
+  
+    // Copy the array to avoid mutating the original
+    const shuffledQuestions = [...questions];
+  
+    // Save the first and last questions
+    const firstQuestion = shuffledQuestions[0];
+    const lastQuestion = shuffledQuestions[shuffledQuestions.length - 1];
+  
+    // Remove the first and last questions from the array
+    shuffledQuestions.shift();
+    shuffledQuestions.pop();
+  
+    // Shuffle the remaining elements
+    for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+    }
+  
+    // Re-insert the first and last questions at the beginning and end
+    shuffledQuestions.unshift(firstQuestion);
+    shuffledQuestions.push(lastQuestion);
+  
+    // Add consecutive ids
+    for (let i = 0; i < shuffledQuestions.length; i++) {
+      shuffledQuestions[i].id = i + 1;
+    }
+  
+    return shuffledQuestions;
+  };
 
   // Define the content for the slideshow
-  const slideshowContent = unitData.questions;
+  // const slideshowContent = unitData.questions;
+  const [slideshowContent, setSlideshowContent] = useState([]);
 
   // State to track the current slide index
-  const [currentSlide, setCurrentSlide] = useState(0);
+  
 
   // State to store selected answers
   const [examData, setExamData] = useState({
     name: "",
     group: "",
+    questions: [],
     answers: {},
-    openQuestion: ""
+    openQuestion: "",
+    startTime: "",
+    endTime: ""
   });
+  const [currentSlide, setCurrentSlide] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [selectedAnswer, setSelectedAnswer] = useState(0);
 
@@ -49,6 +88,8 @@ const Unit = () => {
   const [name, setName] = useState('');
   const [group, setGroup] = useState('');
   const [text, setText] = useState('');
+  const [startTime, setStartTime] = useState('');
+  const [endTime, setEndTime] = useState('');
   const [error, setError] = useState(null);
   const [showNotification, setShowNotification] = useState(false);
   const [showNotificationMsg, setShowNotificationMsg] = useState('');
@@ -57,12 +98,21 @@ const Unit = () => {
 
   // Function to update exam data
   const handleExamData = () => {
+    if (slideshowContent.length == 0){
+      setSlideshowContent(randomizeQuestions(unitData.questions))
+    }
+    setStartTime(startTime === '' ? new Date() : startTime);
+
     let examData = {
       name: name,
       group: group,
+      questions: slideshowContent,
       answers: selectedAnswers,
-      openQuestion: text
+      openQuestion: text,
+      startTime: startTime,
+      endTime: endTime
     }
+
     setExamData(examData);
   };
 
@@ -89,14 +139,16 @@ const Unit = () => {
   // Validation function for the Group field
   const validateGroupField = () => {
     if (examData.group.trim() === '') {
-      return false;
+      setGroup("A")
+      handleExamData();
     }
     return true;
   };
 
   // Validation function for the question
   const validateQuestion = () => {
-    if (!examData.answers[currentSlide]) {
+    const questionId = examData.questions[currentSlide].id
+    if (!examData.answers[questionId]) {
       return false;
     }
     return true;
@@ -133,7 +185,9 @@ const Unit = () => {
 
   // Function to handle the "Finalizar" button click
   const handleFinishClick = () => {
-    handleExamData()
+    // Set End Time
+    setEndTime(endTime === '' ? new Date() : endTime);
+    handleExamData();
 
     if (currentSlide == 21) {
       if (!validateTextField()) {
@@ -150,57 +204,69 @@ const Unit = () => {
   };
 
   const loadQuestion = () => {
-    const question = slideshowContent[currentSlide];
-
-    switch (question.type) {
-      case 'name-question':
-        return <NameQuestion 
-          data={question}
-          name={name}
-          group={group}
-          setName={setName}
-          setGroup={setGroup}
-          handleExamData={handleExamData}
-        />;
-      case 'true-false-text':
-        return <TrueFalseTextQuestion 
-          data={question}
-          onAnswerSelect={handleAnswerSelect}
-          selectedAnswer={selectedAnswer}
-        />;
-      case 'true-false-image':
-        return <TrueFalseImageQuestion 
-          data={question} 
-          onAnswerSelect={handleAnswerSelect}
-          selectedAnswer={selectedAnswer}
-        />;
-      case 'options-text':
-        return <OptionsTextQuestion
-          data={question}
-          onAnswerSelect={handleAnswerSelect}
-          selectedAnswer={selectedAnswer}
-        />;
-      case 'options-image':
-        return <OptionsImageQuestion 
-          data={question}
-          onAnswerSelect={handleAnswerSelect}
-          selectedAnswer={selectedAnswer}
-        />;
-        case 'open-question':
-          return <OpenQuestion 
+    //const question = slideshowContent[currentSlide];
+    if (examData.questions.length == 0 ) {
+      handleExamData();
+    } else {
+      const question = examData.questions[currentSlide];
+      console.log(examData);
+      switch (question.type) {
+        case 'name-question':
+          return <NameQuestion 
             data={question}
-            text={text}
-            setText={handleLastQuestion}
+            name={name}
+            group={group}
+            setName={setName}
+            setGroup={setGroup}
+            handleExamData={handleExamData}
           />;
-      default:
-        return null;
+        case 'true-false-text':
+          return <TrueFalseTextQuestion 
+            data={question}
+            onAnswerSelect={handleAnswerSelect}
+            selectedAnswer={selectedAnswer}
+          />;
+        case 'true-false-image':
+          return <TrueFalseImageQuestion 
+            data={question} 
+            onAnswerSelect={handleAnswerSelect}
+            selectedAnswer={selectedAnswer}
+          />;
+        case 'options-text':
+          return <OptionsTextQuestion
+            data={question}
+            onAnswerSelect={handleAnswerSelect}
+            selectedAnswer={selectedAnswer}
+          />;
+        case 'options-image':
+          return <OptionsImageQuestion 
+            data={question}
+            onAnswerSelect={handleAnswerSelect}
+            selectedAnswer={selectedAnswer}
+          />;
+          case 'open-question':
+            return <OpenQuestion 
+              data={question}
+              text={text}
+              setText={handleLastQuestion}
+              handleExamData={handleExamData}
+            />;
+        default:
+          return null;
+      }
     }
   }
 
   const loadResults = () => {
-    return <Results 
-      examData={examData}
-    />;
+    if (examData.endTime == '') {
+      // Set End Time
+      setEndTime(endTime === '' ? new Date() : endTime);
+      handleExamData();
+    } else {
+      return <Results 
+        examData={examData}
+      />;
+    }
   }
 
   const handlePrintClick = () => {
