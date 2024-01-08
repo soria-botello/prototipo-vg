@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import unitData1 from  './data/unit1.json';
 import unitData2 from  './data/unit2.json';
 import unitData3 from  './data/unit3.json';
+import videosData from  './data/videosData.json';
 import NameQuestion from './NameQuestion';
 import TrueFalseTextQuestion from './TrueFalseTextQuestion';
 import TrueFalseImageQuestion from './TrueFalseImageQuestion';
@@ -25,6 +26,11 @@ const Unit = () => {
       default:
         return unitData1;
     }
+  }
+
+  const loadVideoData = () => {
+    const randomNumber = Math.floor(Math.random() * 5);
+    return videosData[randomNumber];
   }
 
   const unitData = loadUnitData(unitId);
@@ -64,11 +70,7 @@ const Unit = () => {
   };
 
   // Define the content for the slideshow
-  // const slideshowContent = unitData.questions;
   const [slideshowContent, setSlideshowContent] = useState([]);
-
-  // State to track the current slide index
-  
 
   // State to store selected answers
   const [examData, setExamData] = useState({
@@ -77,6 +79,7 @@ const Unit = () => {
     questions: [],
     answers: {},
     openQuestion: "",
+    videoData: {},
     startTime: "",
     endTime: ""
   });
@@ -88,6 +91,7 @@ const Unit = () => {
   const [name, setName] = useState('');
   const [group, setGroup] = useState('');
   const [text, setText] = useState('');
+  const [videoData, setVideoData] = useState({});
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
   const [error, setError] = useState(null);
@@ -101,6 +105,9 @@ const Unit = () => {
     if (slideshowContent.length == 0){
       setSlideshowContent(randomizeQuestions(unitData.questions))
     }
+    if (Object.keys(videoData).length === 0){
+      setVideoData(loadVideoData());
+    }
     setStartTime(startTime === '' ? new Date() : startTime);
 
     let examData = {
@@ -109,6 +116,7 @@ const Unit = () => {
       questions: slideshowContent,
       answers: selectedAnswers,
       openQuestion: text,
+      videoData: videoData,
       startTime: startTime,
       endTime: endTime
     }
@@ -247,6 +255,7 @@ const Unit = () => {
           case 'open-question':
             return <OpenQuestion 
               data={question}
+              videoData={videoData}
               text={text}
               setText={handleLastQuestion}
               handleExamData={handleExamData}

@@ -54,8 +54,10 @@ const Results = ({ examData }) => {
                         </tr>
                     ))}
                     <tr>
-                        <th className="border px-4 py-2 text-left">Pregunta final: {examData.questions[21].question}</th>
-                        <td className="border px-4 py-2">{examData.openQuestion}</td>
+                        <th className="border px-4 py-2 text-left" colSpan="2">Pregunta final: {examData.questions[21].question}<br></br>Video: {examData.videoData.title}</th>
+                    </tr>
+                    <tr>
+                        <td className="border px-4 py-2" colSpan="2">{examData.openQuestion}</td>
                     </tr>
                     <tr>
                         <th className="border px-4 py-2 text-left">Tiempo</th>
