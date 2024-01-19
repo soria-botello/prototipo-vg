@@ -1,7 +1,6 @@
 {
   "id": 1,
-  "name": "Unidad 2",
-  "description": "La experiencia de si",
+  "name": "El universo magico",
   "questions": [
     {
       "type": "name-question",

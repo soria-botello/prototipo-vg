@@ -1,7 +1,6 @@
 {
     "id": 1,
-    "name": "Unidad 3",
-    "description": "La experiencia de si",
+    "name": "El universo encantado",
     "questions": [
       {
         "type": "name-question",

@@ -21,6 +21,7 @@ const LandingPage = () => {
       <div className="flex flex-col items-center justify-center">
         <img src="./assets/greece.jpg" alt="Big Image" className="w-1/2" />
         <h1 className="text-4xl font-bold my-4">HumaniTeens</h1>
+        <h5 className="text-1xl text-center text-gray-500">“La Digitalización Como Potencializador De Las Humanidades”</h5>
       </div>
       <div className="p-4 text-center">
         <Link to="/unidades" className="bg-blue-500 text-white px-4 py-2 rounded-full">

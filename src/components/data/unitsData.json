@@ -2,19 +2,16 @@
   {
     "id": 1,
     "image": "uno.jpg",
-    "title": "Unidad 1",
-    "subtitle": "La experiencia de si"
+    "title": "El universo de sabiduria"
   },
   {
     "id": 2,
     "image": "dos.jpg",
-    "title": "Unidad 2",
-    "subtitle": "La experiencia de si"
+    "title": "El universo magico"
   },
   {
     "id": 3,
     "image": "tres.jpg",
-    "title": "Unidad 3",
-    "subtitle": "La experiencia de si"
+    "title": "El universo encantado"
   }
 ]

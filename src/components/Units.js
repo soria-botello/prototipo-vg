@@ -9,7 +9,8 @@ const Units = () => {
     <div className="h-screen my-10">
       <div className="flex justify-center items-center">
         <p className="text-xl font-semibold w-[800px] m-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus aliquam odio, vitae sollicitudin est hendrerit condimentum. Vivamus sodales ultricies accumsan. Phasellus cursus mattis malesuada.
+        Te invitamos a emprender este viaje lleno de sabiduría y emociones.
+        Puedes empezar  seleccionando el universo que más te agrade. 
         </p>
       </div>
       <div className="flex justify-center items-center my-10">
