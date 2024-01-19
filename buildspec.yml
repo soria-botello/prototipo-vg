@@ -4,13 +4,13 @@ phases:
   install:
     rutime-versions:
       nodejs: 18
-    pre_build:
-      commands:
-        - npm install
-    build:
-      commands:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
       - npm run build
-  artifacts: 
-    base-directory: build/
+artifacts: 
+  base-directory: build/
     files:
      - '**/*' 
