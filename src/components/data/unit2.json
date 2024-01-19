@@ -27,7 +27,7 @@
     },
     {
       "id": 2,
-      "type": "true-false-img",
+      "type": "true-false-image",
       "question": "Acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
       "answer": true,
       "options":[
@@ -69,7 +69,7 @@
     },
     {
       "id": 4,
-      "type": "options-img",
+      "type": "options-image",
       "question": "Se refiere al estado emocional de satisfacción de una persona, la sensación de bienestar y la realización que experimenta el ser humano cuando alcanza sus propósitos y deseos. Es un estado anímico relacionado con aspectos subjetivos de cada individuo, y por tanto, expresado de maneras distintas de acuerdo con la personalidad y carácter de cada persona.",
       "answer": 1,
       "options": [
@@ -111,7 +111,7 @@
     },
     {
       "id": 6,
-      "type": "true-false-img",
+      "type": "true-false-image",
       "question": "Es aquel concepto que se refiere al uso indebido de alguien o algo para obtener un beneficio propio. Puede ser económica, política, social o cultural y puede ser ejercida por individuos, grupos o estados.",
       "answer": true,
       "options":[
@@ -153,7 +153,7 @@
     },
     {
       "id": 8,
-      "type": "options-img",
+      "type": "options-image",
       "question": "Concepto que señala la manera en que una persona se siente separada de sí misma y de su entorno, debido a factores externos, es decir, se refiere a la forma en que las personas oprimidas se sienten aisladas y desconectadas de la sociedad, de sus propios intereses y necesidades.",
       "answer": 3,
       "options": [
@@ -195,7 +195,7 @@
     },
     {
       "id": 10,
-      "type": "true-false-img",
+      "type": "true-false-image",
       "question": "Conjunto de características que nos hacen personas únicas, nos define como seres individuales y nos distingue de los demás.",
       "answer": true,
       "options":[
@@ -237,7 +237,7 @@
     },
     {
       "id": 12,
-      "type": "options-img",
+      "type": "options-image",
       "question": "Teórica ética propuesta por Aristóteles, la cual nos dice que el bien es el medio para llegar a algo y al mismo tiempo se refiere al bien como fin, es decir, el bien que desea por sí mismo.",
       "answer": 1,
       "options": [
@@ -279,7 +279,7 @@
     },
     {
       "id": 14,
-      "type": "true-false-img",
+      "type": "true-false-image",
       "question": "Teoría propuesta por John Stuart Mill, la cual propone que el bien radica en aquello que es útil al mayor número posible de personas. ",
       "answer": true,
       "options":[
@@ -321,7 +321,7 @@
     },
     {
       "id": 16,
-      "type": "options-img",
+      "type": "options-image",
       "question": "En la filosofía aristotélica, ¿A qué se relaciona la potencia? ",
       "answer": 1,
       "options": [
@@ -363,7 +363,7 @@
     },
     {
       "id": 18,
-      "type": "true-false-img",
+      "type": "true-false-image",
       "question": "En la filosofía moderna ¿A qué se relaciona la potencia?",
       "answer": true,
       "options":[
@@ -405,7 +405,7 @@
     },
     {
       "id": 20,
-      "type": "options-img",
+      "type": "options-image",
       "question": "Según la filosofía, ¿Qué significa ser esclavo de tu ser?",
       "answer": 1,
       "options": [

@@ -27,7 +27,7 @@
       },
       {
         "id": 2,
-        "type": "true-false-img",
+        "type": "true-false-image",
         "question": "La argumentaación, tiene como fin persuadir al destinatario del punto de vista que se tiene sobre un asunto, o bien convencerlo de la falsedad o veracidad de una teoría, para lo cual debe aportar determinadas razones.",
         "answer": true,
         "options":[
@@ -69,7 +69,7 @@
       },
       {
         "id": 4,
-        "type": "options-img",
+        "type": "options-image",
         "question": "Es aquella disciplina que ayuda a mejorar el análisis de nuestros argumentos desde una perspectiva que en conjunto con la lógica complementa el intercambio de ideas y la comunicación, sus objetivos se enmarcan en una intención argumentativa (Persuadir, convencer, cuestionar, etc…)",
         "answer": 1,
         "options": [
@@ -111,7 +111,7 @@
       },
       {
         "id": 6,
-        "type": "true-false-img",
+        "type": "true-false-image",
         "question": "Significa estar de acuerdo con una afirmación",
         "answer": true,
         "options":[
@@ -153,7 +153,7 @@
       },
       {
         "id": 8,
-        "type": "options-img",
+        "type": "options-image",
         "question": "Mantener una discusión",
         "answer": 3,
         "options": [
@@ -195,7 +195,7 @@
       },
       {
         "id": 10,
-        "type": "true-false-img",
+        "type": "true-false-image",
         "question": "Hacer visible que determinada cosa es verdad o se cumple generalmente por medio de algún razonamiento o acción.",
         "answer": true,
         "options":[
@@ -237,7 +237,7 @@
       },
       {
         "id": 12,
-        "type": "options-img",
+        "type": "options-image",
         "question": "¿Cuáles son los puntos para construir un argumento?",
         "answer": 1,
         "options": [
@@ -255,14 +255,6 @@
           },
           {
             "id": 4,
-            "image": "image.jpg"
-          },
-          {
-            "id": 5,
-            "image": "image.jpg"
-          },
-          {
-            "id": 6,
             "image": "image.jpg"
           }
         ]
@@ -287,7 +279,7 @@
       },
       {
         "id": 14,
-        "type": "true-false-img",
+        "type": "true-false-image",
         "question": "Comunicación asertiva: sucede cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.Cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.",
         "answer": true,
         "options":[
@@ -329,7 +321,7 @@
       },
       {
         "id": 16,
-        "type": "options-img",
+        "type": "options-image",
         "question": "Es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales.",
         "answer": 1,
         "options": [
@@ -371,7 +363,7 @@
       },
       {
         "id": 18,
-        "type": "true-false-img",
+        "type": "true-false-image",
         "question": "La Fase de confrontación:es aquella fase dentro del diálogo argumentativo donde el problema del diálogo debe ser anunciado o acordado para que sea clara cuál es la meta del diálogo.",
         "answer": true,
         "options":[
@@ -405,7 +397,7 @@
       },
       {
         "id": 20,
-        "type": "options-img",
+        "type": "options-image",
         "question": "Tipo de argumento en el que a partir de la observación de una propiedad definida en un número suficiente de individuos de una clase determinada, generaliza en la conclusión la propiedad observada y le atribuye a todos los miembros de esa misma clase.",
         "answer": 1,
         "options": [
