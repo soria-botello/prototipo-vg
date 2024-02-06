@@ -10,7 +10,8 @@ import TrueFalseImageQuestion from './TrueFalseImageQuestion';
 import OptionsTextQuestion from './OptionsTextQuestion';
 import OptionsImageQuestion from './OptionsImageQuestion';
 import OpenQuestion from './OpenQuestion';
-import Results from './Results';
+// import Results from './Results';
+import Stars from './Stars';
 
 const Unit = () => {
   const { unitId } = useParams();
@@ -272,7 +273,7 @@ const Unit = () => {
       setEndTime(endTime === '' ? new Date() : endTime);
       handleExamData();
     } else {
-      return <Results 
+      return <Stars 
         examData={examData}
       />;
     }
@@ -289,8 +290,14 @@ const Unit = () => {
   };
 
   const handleNextUnit = () => {
-    setShowNotificationMsg('¿Estás seguro de que quieres ir a unidades?');
-    setShowNotificationPath('/unidades');
+    setShowNotificationMsg('¿Estás seguro de que quieres ir a universos?');
+    setShowNotificationPath('/universos');
+    setShowNotification(true);
+  };
+
+  const handleCancelUnit = () => {
+    setShowNotificationMsg('¿Estás seguro de que quieres cancelar este universo?');
+    setShowNotificationPath('/universos');
     setShowNotification(true);
   };
 
@@ -306,7 +313,7 @@ const Unit = () => {
 
   return (
     <div className="p-4 h-600">
-      <h2 className="text-4xl font-bold mb-4">{unitData.name}: {unitData.description}</h2>
+      <h2 className="text-4xl font-bold mb-4">{unitData.name} {unitData.description}</h2>
 
       {!examIsComplete && (
       <div className="bg-white p-4 shadow-md rounded-md h-[500px]">
@@ -316,12 +323,21 @@ const Unit = () => {
 
       <div className="mt-4">
         {!isLastSlide && (
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-full"
-            onClick={handleNextClick}
-          >
-            Siguiente
-          </button>
+          <div className="flex justify-between">
+            <button
+              className="bg-blue-500 text-white px-4 py-2 rounded-full"
+              onClick={handleNextClick}
+            >
+              Siguiente
+            </button>
+
+            <button
+              className="bg-blue-500 text-white px-4 py-2 rounded-full mr-2"
+              onClick={handleCancelUnit}
+            >
+              Cancelar
+            </button>
+          </div>
         )}
         {isLastSlide && !examIsComplete && (
           <button
@@ -348,7 +364,7 @@ const Unit = () => {
           className="bg-blue-500 text-white px-4 py-2 rounded-full mr-2"
           onClick={handleNextUnit}
         >
-          Ir a Unidades
+          Ir a Universos
         </button>
         )}
         

@@ -69,7 +69,7 @@
       {
         "id": 4,
         "type": "options-image",
-        "question": "Es aquella disciplina que ayuda a mejorar el análisis de nuestros argumentos desde una perspectiva que en conjunto con la lógica complementa el intercambio de ideas y la comunicación, sus objetivos se enmarcan en una intención argumentativa (Persuadir, convencer, cuestionar, etc…)",
+        "question": "Es aquella disciplina que ayuda a mejorar el análisis de nuestros argumentos desde una perspectiva que en conjunto con la lógica complementa el intercambio de ideas y la comunicación, sus objetivos se enmarcan en una intención argumentativa (Persuadir, convencer, cuestionar, etc…).",
         "answer": 1,
         "options": [
           {
@@ -111,7 +111,7 @@
       {
         "id": 6,
         "type": "true-false-image",
-        "question": "Significa estar de acuerdo con una afirmación",
+        "question": "Significa estar de acuerdo con una afirmación.",
         "answer": true,
         "options":[
           {
@@ -129,7 +129,7 @@
       {
         "id": 7,
         "type": "options-text",
-        "question": "Dudar de cierta información",
+        "question": "Dudar de cierta información.",
         "answer": 1,
         "options": [
           {
@@ -177,7 +177,7 @@
       {
         "id": 9,
         "type": "true-false-text",
-        "question": "Tomar una decisión después de ver los pros y los contras",
+        "question": "Tomar una decisión después de ver los pros y los contras.",
         "answer": true,
         "options":[
           {
@@ -237,24 +237,24 @@
       {
         "id": 12,
         "type": "options-image",
-        "question": "¿Cuáles son los puntos para construir un argumento?",
+        "question": "Selecciona el emogi basado en uno de los puntos para construir un argumento.",
         "answer": 1,
         "options": [
           {
             "id": 1,
-            "image": "image.jpg"
+            "image": "u3_12_1.png"
           },
           {
             "id": 2,
-            "image": "image.jpg"
+            "image": "u3_12_2.png"
           },
           {
             "id": 3,
-            "image": "image.jpg"
+            "image": "u3_12_3.png"
           },
           {
             "id": 4,
-            "image": "image.jpg"
+            "image": "u3_12_4.png"
           }
         ]
       },
@@ -271,7 +271,7 @@
           },
           {
             "id": 2,
-            "option": "tristeza",
+            "option": "Verdad",
             "value": false
           }
         ]
@@ -321,24 +321,24 @@
       {
         "id": 16,
         "type": "options-image",
-        "question": "Es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales.",
-        "answer": 1,
+        "question": "Antropología cultural, es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales. Selecciona el emogi que más se asemeje.",
+        "answer": 4,
         "options": [
           {
             "id": 1,
-            "image": "image.jpg"
+            "image": "u3_16_1.png"
           },
           {
             "id": 2,
-            "image": "image.jpg"
+            "image": "u3_16_2.png"
           },
           {
             "id": 3,
-            "image": "image.jpg"
+            "image": "u3_16_3.png"
           },
           {
             "id": 4,
-            "image": "image.jpg"
+            "image": "u3_16_4.png"
           }
         ]
       },
@@ -420,7 +420,7 @@
       },
       {
         "type": "open-question",
-        "question": "Que significa Filosofia?"
+        "question": "¿Qué significa Filosofia?"
       }
     ]
   }

@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/unidades" component={Units} />
-        <Route path="/unidad/:unitId" component={Unit} />
+        <Route path="/universos" component={Units} />
+        <Route path="/universo/:unitId" component={Unit} />
       </Switch>
     </Router>
   );

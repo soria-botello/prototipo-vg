@@ -93,17 +93,17 @@
     {
       "id": 5,
       "type": "true-false-text",
-      "question": "El conocimiento, es el tema principal de la filosofía moderna",
+      "question": "El conocimiento, es el tema principal de la filosofía moderna.",
       "answer": true,
       "options":[
         {
           "id": 1,
-          "option": "felicidad",
+          "option": "Felicidad",
           "value": true
         },
         {
           "id": 2,
-          "option": "tristeza",
+          "option": "Tristeza",
           "value": false
         }
       ]
@@ -153,24 +153,24 @@
     {
       "id": 8,
       "type": "options-image",
-      "question": "Son aquellas energías positivas que te ayudan a crecer y vivir de una manera plena.",
+      "question": "La pasión son aquellas energías positivas que te ayudan a crecer y vivir de una manera plena. Elije el emoji que más se relaciona.",
       "answer": 3,
       "options": [
         {
             "id": 1,
-            "image": "image.jpg"
+            "image": "u1_8_1.png"
         },
         {
           "id": 2,
-          "image": "image.jpg"
+          "image": "u1_8_2.png"
         },
         {
           "id": 3,
-          "image": "image.jpg"
+          "image": "u1_8_3.png"
         },
         {
           "id": 4,
-          "image": "image.jpg"
+          "image": "u1_8_4.png"
         }
       ]
     },
@@ -187,7 +187,7 @@
         },
         {
           "id": 2,
-          "option": "tristeza",
+          "option": "Platón",
           "value": false
         }
       ]
@@ -213,7 +213,7 @@
     {
       "id": 11,
       "type": "options-text",
-      "question": "Que se considera un precursor del cuidado de sí, ya que promovía la reflexión y la autoconciencia como medios para vivir de manera más virtuosa y sabia.",
+      "question": "Se considera un precursor del cuidado de sí, ya que promovía la reflexión y la autoconciencia como medios para vivir de manera más virtuosa y sabia.",
       "answer": 4,
       "options": [
         {
@@ -237,41 +237,41 @@
     {
       "id": 12,
       "type": "options-image",
-      "question": "Define 3 maneras de honrar la frase “El cuidado de ti mismo",
-      "answer": 1,
+      "question": "Elige un emogi que defina una manera de honrar la frase *El cuidado de ti mismo*, recuerda que, el prestar atención al propio bienestar físico, mental, emocional, tomar decisiones adecuadas, practicar la autocompasión y gratitud, forman parte del cuidado de ti mismo.",
+      "answer": 3,
       "options": [
         {
           "id": 1,
-          "image": "image.jpg"
+          "image": "u1_12_1.png"
         },
         {
           "id": 2,
-          "image": "image.jpg"
+          "image": "u1_12_2.png"
         },
         {
           "id": 3,
-          "image": "image.jpg"
+          "image": "u1_12_3.png"
         },
         {
           "id": 4,
-          "image": "image.jpg"
+          "image": "u1_12_4.png"
         }
       ]
     },
     {
       "id": 13,
       "type": "true-false-text",
-      "question": "La Gratitud consiente en hacerte de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas…",
+      "question": "La Gratitud consiente en hacerte de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas.",
       "answer": true,
       "options":[
         {
           "id": 1,
-          "option": "felicidad",
+          "option": "Felicidad",
           "value": true
         },
         {
           "id": 2,
-          "option": "tristeza",
+          "option": "Tristeza",
           "value": false
         }
       ]
@@ -345,12 +345,12 @@
     {
       "id": 17,
       "type": "true-false-text",
-      "question": "Según Aristóteles ¿cuáles son los 3 tipos de almas?",
+      "question": "Según Aristóteles ¿Cuáles son los 3 tipos de almas?",
       "answer": true,
       "options":[
         {
           "id": 1,
-          "option": "Vengativa, Sensitiva y racional.",
+          "option": "Vengativa, Sensitiva y racional",
           "value": true
         },
         {
@@ -405,7 +405,7 @@
     {
       "id": 20,
       "type": "options-image",
-      "question": "Es aquel valor objetivo de la naturaleza, lo que significa que el saber debe coincidir con la realidad",
+      "question": "Es aquel valor objetivo de la naturaleza, lo que significa que el saber debe coincidir con la realidad.",
       "answer": 1,
       "options": [
         {
@@ -428,7 +428,7 @@
     },
     {
       "type": "open-question",
-      "question": "Que opinas sobre el siguiente video?"
+      "question": "¿Qué opinas sobre el siguiente video?"
     }
   ]
 }
