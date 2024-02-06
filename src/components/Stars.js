@@ -73,22 +73,27 @@ const Stars = ({ examData }) => {
 
     return (
         <div className="bg-white p-4 rounded-lg">
-            <div>Points: {points}</div>
-            <div>Stars: {stars}</div>
-            <div className="flex justify-center items-center py-10">
+            <h2 className="text-2xl font-bold mb-4 text-center">Hola { examData.name } del grupo { examData.group } </h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">Obtuviste { points } puntos!!!</h2>
+            <div className="grid grid-cols-3 gap-4 justify-center items-center">
                 <img
                     src="../assets/2B50_color.png"
-                    className={stars >= 1 ? "filter-none" : "filter-grayscale"}
+                    className={`w-64 mx-auto ${stars >= 1 ? "grayscale-0" : "grayscale"}`}
+                    alt="Star"
                 />
                 <img
                     src="../assets/2B50_color.png"
-                    className={stars >= 2 ? "filter-none" : "filter-grayscale"}
+                    className={`w-64 mx-auto ${stars >= 2 ? "grayscale-0" : "grayscale"}`}
+                    alt="Star"
                 />
                 <img
                     src="../assets/2B50_color.png"
-                    className={stars === 3 ? "filter-none" : "filter-grayscale"}
+                    className={`w-64 mx-auto ${stars === 3 ? "grayscale-0" : "grayscale"}`}
+                    alt="Star"
                 />
             </div>
+            <h2 className="text-2xl font-bold mb-4 text-center">Y en la pregunta final, tu respuesta fue:</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">{examData.openQuestion}</h2>
         </div>
     );
 }
