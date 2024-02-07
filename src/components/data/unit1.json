@@ -27,7 +27,7 @@
     {
       "id": 2,
       "type": "true-false-image",
-      "question": "La lógica, es aquella ciencia que se encarga del estudio de los razonamientos, pensamientos y argumentación.",
+      "question": "Selecciona si la lógica, es aquella ciencia que se encarga del estudio de los razonamientos, pensamientos y argumentación.",
       "answer": true,
       "options":[
           {
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "type": "options-text",
-      "question": "Ciencia derivada de la filosofía que se encarga del estudio de todo aquello que es bonito a la vista, todo aquello que se considera arte y su relación con la realidad.",
+      "question": "Selecciona la opción correcta. Es la ciencia derivada de la filosofía que se encarga del estudio de todo aquello que es bonito a la vista, todo aquello que se considera arte y su relación con la realidad.",
       "answer": 3,
       "options": [
         {
@@ -93,17 +93,17 @@
     {
       "id": 5,
       "type": "true-false-text",
-      "question": "El conocimiento, es el tema principal de la filosofía moderna.",
+      "question": "Selecciona la opción correcta, es el tema principal de la filosofía moderna.",
       "answer": true,
       "options":[
         {
           "id": 1,
-          "option": "Felicidad",
+          "option": "El conocimiento",
           "value": true
         },
         {
           "id": 2,
-          "option": "Tristeza",
+          "option": "La sabiduría",
           "value": false
         }
       ]
@@ -111,7 +111,7 @@
     {
       "id": 6,
       "type": "true-false-image",
-      "question": "Filósofo que nos dice que los hombres somos accedemos al mundo de manera parcial y restringida, a través de impresiones que le muestran las cosas de manera superficial.",
+      "question": "Selecciona si Heráclito es el filósofo que nos dice que los hombres somos accedemos al mundo de manera parcial y restringida, a través de impresiones que le muestran las cosas de manera superficial.",
       "answer": true,
       "options":[
         {
@@ -129,16 +129,16 @@
     {
       "id": 7,
       "type": "options-text",
-      "question": "Son aquellos impulsos negativos que te llevan a cometer acciones dañinas para tu persona y para los demás.",
-      "answer": 1,
+      "question": "Selecciona la opción correcta. Son aquellos impulsos negativos que te llevan a cometer acciones dañinas para tu persona y para los demás.",
+      "answer": 2,
       "options": [
         {
           "id": 1,
-          "option": "Vicio"
+          "option": "Pasión"
         },
         {
           "id": 2,
-          "option": "Pasión"
+          "option": "Vicio"
         },
         {
           "id": 3,
@@ -177,7 +177,7 @@
     {
       "id": 9,
       "type": "true-false-text",
-      "question": "Filósofo importante que afirmaba que no se trataba de suprimir la influencia de las pasiones, sino de tener la capacidad de poder gobernarlas y no dejarte llevar por ellas.",
+      "question": "Selecciona la opción correcta. Filósofo importante que afirmaba que no se trataba de suprimir la influencia de las pasiones, sino de tener la capacidad de poder gobernarlas y no dejarte llevar por ellas.",
       "answer": true,
       "options":[
         {
@@ -195,7 +195,7 @@
     {
       "id": 10,
       "type": "true-false-image",
-      "question": "FILOSOFÍA, significa, Amor a la sabiduría.",
+      "question": " Selecciona si la FILOSOFÍA, significa, Amor a la sabiduría.",
       "answer": true,
       "options":[
         {
@@ -213,7 +213,7 @@
     {
       "id": 11,
       "type": "options-text",
-      "question": "Se considera un precursor del cuidado de sí, ya que promovía la reflexión y la autoconciencia como medios para vivir de manera más virtuosa y sabia.",
+      "question": "Selecciona la opción correcta. Se considera un precursor del cuidado de sí, ya que promovía la reflexión y la autoconciencia como medios para vivir de manera más virtuosa y sabia.",
       "answer": 4,
       "options": [
         {
@@ -261,12 +261,12 @@
     {
       "id": 13,
       "type": "true-false-text",
-      "question": "La Gratitud consiente en hacerte de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas.",
+      "question": "Selecciona la opción correcta. Hacerte consiente de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas",
       "answer": true,
       "options":[
         {
           "id": 1,
-          "option": "Felicidad",
+          "option": "Gratitud",
           "value": true
         },
         {
@@ -297,7 +297,7 @@
     {
       "id": 15,
       "type": "options-text",
-      "question": "Emociones fuertes y profundas que poseemos, ejemplo de ellas serían el amor, la ira o el  miedo.",
+      "question": "Son las emociones fuertes y profundas que poseemos, ejemplo de ellas serían el amor, la ira o el  miedo.",
       "answer": 1,
       "options": [
         {
@@ -381,24 +381,24 @@
     {
       "id": 19,
       "type": "options-text",
-      "question": 	"Immanuel Kant es el filósofo que afirmaba que el problema no es lo que conocemos, sino como lo conocemos, pues el sujeto no encuentra objeto de conocimiento, sino que lo construye. Fue autor de obras muy importantes como la crítica de la razón pura, crítica de la razón práctica y crítica del juicio.",
-      "answer": 1,
+      "question": 	"Es el filósofo que afirmaba que el problema no es lo que conocemos, sino como lo conocemos, pues el sujeto no encuentra objeto de conocimiento, sino que lo construye. Fue autor de obras muy importantes como la crítica de la razón pura, crítica de la razón práctica y crítica del juicio.",
+      "answer": 4,
       "options": [
         {
           "id": 1,
-          "option": "Lógica"
+          "option": "Sócrates"
         },
         {
             "id": 2,
-            "option": "Estética"
+            "option": "Jean-Jacques Rousseau"
         },
         {
             "id": 3,
-            "option": "Eudemonismo"
+            "option": "Heráclito"
         },
         {
             "id": 4,
-            "option": "Utilitarismo"
+            "option": "Immanuel Kant"
         }
       ]
     },

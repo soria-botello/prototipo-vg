@@ -9,7 +9,7 @@ const Units = () => {
     <div className="h-screen py-10 bg-slate-100">
       <div className="flex justify-center items-center">
         <p className="text-xl font-semibold w-[800px] p-4">
-        Te invitamos a emprender este viaje lleno de sabiduría y emociones.
+        ¡Hola! Te invitamos a emprender este viaje lleno de sabiduría y emociones.
         Puedes empezar  seleccionando el universo que más te agrade. 
         </p>
       </div>

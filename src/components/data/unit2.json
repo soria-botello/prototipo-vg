@@ -27,7 +27,7 @@
     {
       "id": 2,
       "type": "true-false-image",
-      "question": "Acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
+      "question": "Loss actos humanos, son acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
       "answer": true,
       "options":[
           {
@@ -111,7 +111,7 @@
     {
       "id": 6,
       "type": "true-false-image",
-      "question": "Es aquel concepto que se refiere al uso indebido de alguien o algo para obtener un beneficio propio. Puede ser económica, política, social o cultural y puede ser ejercida por individuos, grupos o estados.",
+      "question": "La Explotación es aquel concepto que se refiere al uso indebido de alguien o algo para obtener un beneficio propio. Puede ser económica, política, social o cultural y puede ser ejercida por individuos, grupos o estados.",
       "answer": true,
       "options":[
         {
@@ -153,24 +153,24 @@
     {
       "id": 8,
       "type": "options-image",
-      "question": "La  Alienación es el concepto que señala la manera en que una persona se siente separado de sí misma y de su entorno, debido a factores externos, es decir, se refiere a la forma en que las personas oprimidas se sienten aisladas y desconectadas de la sociedad, de sus propios intereses y necesidades. Selecciona el emogi que creas que se asemeje.",
+      "question": "Selecciona la opción correcta ,es el concepto que señala la manera en que una persona se siente separado de sí misma y de su entorno, debido a factores externos, es decir, se refiere a la forma en que las personas oprimidas se sienten aisladas y desconectadas de la sociedad, de sus propios intereses y necesidades. Selecciona el emogi que creas que se asemeje.",
       "answer": 3,
       "options": [
         {
             "id": 1,
-            "image": "u2_8_1.png"
+            "image": ""
         },
         {
           "id": 2,
-          "image": "u2_8_2.png"
+          "image": ""
         },
         {
           "id": 3,
-          "image": "u2_8_3.png"
+          "image": ""
         },
         {
           "id": 4,
-          "image": "u2_8_4.png"
+          "image": ""
         }
       ]
     },
@@ -195,7 +195,7 @@
     {
       "id": 10,
       "type": "true-false-image",
-      "question": "Conjunto de características que nos hacen personas únicas, nos define como seres individuales y nos distingue de los demás.",
+      "question": "La identidad personal es el conjunto de características que nos hacen personas únicas, nos define como seres individuales y nos distingue de los demás.",
       "answer": true,
       "options":[
         {
@@ -218,15 +218,15 @@
       "options": [
         {
           "id": 1,
-          "option": "Aristoteles"
+          "option": "Verdad"
         },
         {
           "id": 2,
-          "option": "Epicuro"
+          "option": "Mentira"
         },
         {
           "id": 3,
-          "option": "Platón"
+          "option": "Falacia"
         },
         {
           "id": 4,
@@ -279,7 +279,7 @@
     {
       "id": 14,
       "type": "true-false-image",
-      "question": "Teoría propuesta por John Stuart Mill, la cual propone que el bien radica en aquello que es útil al mayor número posible de personas.",
+      "question": "El Utilitarismo es la teoría propuesta por John Stuart Mill, la cual propone que el bien radica en aquello que es útil al mayor número posible de personas.",
       "answer": true,
       "options":[
         {
@@ -302,19 +302,19 @@
       "options": [
         {
           "id": 1,
-          "option": "Con la naturaleza y el movimiento de los cuerpos."
+          "option": "Con la naturaleza y el movimiento de los cuerpos"
           },
         {
           "id": 2,
-          "option": "Vicio"
+          "option": "Creación y conservación del mundo por parte de Dios"
         },
         {
           "id": 3,
-          "option": "Virtudes"
+          "option": "Aborda cuestiones sobre el ser humano y su relación con el mundo"
         },
         {
           "id": 4,
-          "option": "Amor"
+          "option": "Actividad y la acción"
         }
       ]
     },
@@ -363,7 +363,7 @@
     {
       "id": 18,
       "type": "true-false-image",
-      "question": "En la filosofía moderna ¿A qué se relaciona la potencia?",
+      "question": "En la filosofía moderna, la potencia aborda cuestiones sobre el ser humano y su relación con el mundo",
       "answer": true,
       "options":[
         {
@@ -382,23 +382,23 @@
       "id": 19,
       "type": "options-text",
       "question": 	"¿Qué es la potencia?",
-      "answer": 1,
+      "answer": 2,
       "options": [
         {
           "id": 1,
-          "option": "Concepto fundamental para entender cómo funcionan las relaciones sociales y como se construyen lasa identidades individuales y colectivas."
+          "option": "Se da a través de la razón basada en la realidad, y que de alguna manera permite el aprendizaje universal."
         },
         {
             "id": 2,
-            "option": "Estética"
+            "option": "Concepto fundamental para entender cómo funcionan las relaciones sociales y como se construyen lasa identidades individuales y colectivas."
         },
         {
             "id": 3,
-            "option": "Eudemonismo"
+            "option": "De da una vez que se ha establecido la condición de verdad mediante la prueba."
         },
         {
             "id": 4,
-            "option": "Utilitarismo"
+            "option": "Aquello que un momento es y en otro ya no es, porqué está sujeto al cambio."
         }
       ]
     },
