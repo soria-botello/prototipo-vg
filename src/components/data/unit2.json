@@ -158,19 +158,19 @@
       "options": [
         {
             "id": 1,
-            "image": ""
+            "image": "u2_8_1.png"
         },
         {
           "id": 2,
-          "image": ""
+          "image": "u2_8_2.png"
         },
         {
           "id": 3,
-          "image": ""
+          "image": "u2_8_3.png"
         },
         {
           "id": 4,
-          "image": ""
+          "image": "u2_8_4.png"
         }
       ]
     },
@@ -406,23 +406,23 @@
       "id": 20,
       "type": "options-image",
       "question": "Según la filosofía, ¿Qué significa ser esclavo de tu ser?",
-      "answer": 1,
+      "answer": 4,
       "options": [
         {
           "id": 1,
-          "image": "image.jpg"
+          "image": "u2_20_1.png"
         },
         {
           "id": 2,
-          "image": "image.jpg"
+          "image": "u2_20_2.png"
         },
         {
           "id": 3,
-          "image": "image.jpg"
+          "image": "u2_20_3.png"
         },
         {
           "id": 4,
-          "image": "image.jpg"
+          "image": "u2_20_4.png"
         }
       ]
     },

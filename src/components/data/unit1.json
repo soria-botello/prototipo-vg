@@ -86,7 +86,7 @@
         },
         {
           "id": 4,
-          "image": "u1_45.png"
+          "image": "u1_44.png"
         }
       ]
     },
@@ -322,23 +322,23 @@
       "id": 16,
       "type": "options-image",
       "question": "Cualidades morales que valoramos y buscamos en nuestra persona y en quienes nos rodean, son cualidades esenciales para una vida buena y plena, nos ayudan a vivir de acuerdo con nuestros valores y tomar decisiones correctas y justas.",
-      "answer": 1,
+      "answer": 3,
       "options": [
         {
           "id": 1,
-          "image": "image.jpg"
+          "image": "u1_16_1.png"
         },
         {
           "id": 2,
-          "image": "image.jpg"
+          "image": "u1_16_2.png"
         },
         {
           "id": 3,
-          "image": "image.jpg"
+          "image": "u1_16_3.png"
         },
         {
           "id": 4,
-          "image": "image.jpg"
+          "image": "u1_16_4.png"
         }
       ]
     },
@@ -406,23 +406,23 @@
       "id": 20,
       "type": "options-image",
       "question": "Es aquel valor objetivo de la naturaleza, lo que significa que el saber debe coincidir con la realidad.",
-      "answer": 1,
+      "answer": 3,
       "options": [
         {
           "id": 1,
-          "image": "image.jpg"
+          "image": "u1_20_1.png"
         },
         {
           "id": 2,
-          "image": "image.jpg"
+          "image": "u1_20_3.png"
         },
         {
           "id": 3,
-          "image": "image.jpg"
+          "image": "u1_20_4.png"
         },
         {
           "id": 4,
-          "image": "image.jpg"
+          "image": "u1_20_5.png"
         }
       ]
     },
