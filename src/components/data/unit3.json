@@ -74,19 +74,19 @@
         "options": [
           {
             "id": 1,
-            "image": "image.jpg"
+            "image": "u3_4_3a.png"
           },
           {
             "id": 2,
-            "image": "image.jpg"
+            "image": "u3_4_2.png"
           },
           {
             "id": 3,
-            "image": "image.jpg"
+            "image": "u3_4_3.png"
           },
           {
             "id": 4,
-            "image": "image.jpg"
+            "image": "u3_4_4.png"
           }
         ]
       },
@@ -153,24 +153,24 @@
       {
         "id": 8,
         "type": "options-image",
-        "question": "Mantener una discusión",
-        "answer": 3,
+        "question": "Intención argumentativa en la que mantienes una discusión por determinado lapso de tiempo.",
+        "answer": 2,
         "options": [
           {
               "id": 1,
-              "image": "image.jpg"
+              "image": "u3_8_1.png"
           },
           {
             "id": 2,
-            "image": "image.jpg"
+            "image": "u3_8_2.png"
           },
           {
             "id": 3,
-            "image": "image.jpg"
+            "image": "u3_8_3.png"
           },
           {
             "id": 4,
-            "image": "image.jpg"
+            "image": "u3_8_4.png"
           }
         ]
       },
@@ -398,23 +398,23 @@
         "id": 20,
         "type": "options-image",
         "question": "Tipo de argumento en el que a partir de la observación de una propiedad definida en un número suficiente de individuos de una clase determinada, generaliza en la conclusión la propiedad observada y le atribuye a todos los miembros de esa misma clase.",
-        "answer": 1,
+        "answer": 2,
         "options": [
           {
             "id": 1,
-            "image": "image.jpg"
+            "image": "u3_20_1.png"
           },
           {
             "id": 2,
-            "image": "image.jpg"
+            "image": "u3_20_2.png"
           },
           {
             "id": 3,
-            "image": "image.jpg"
+            "image": "u3_20_3.png"
           },
           {
             "id": 4,
-            "image": "image.jpg"
+            "image": "u3_20_4.png"
           }
         ]
       },

@@ -320,25 +320,17 @@
     },
     {
       "id": 16,
-      "type": "options-image",
-      "question": "En la filosofía aristotélica, ¿A qué se relaciona la potencia?",
-      "answer": 1,
+      "type": "options-text",
+      "question": "En la filosofía aristotélica, la potencia  se relaciona la potencia a: ",
+      "answer": 2,
       "options": [
         {
           "id": 1,
-          "image": "image.jpg"
+          "option": "La vida y actividad"
         },
         {
           "id": 2,
-          "image": "image.jpg"
-        },
-        {
-          "id": 3,
-          "image": "image.jpg"
-        },
-        {
-          "id": 4,
-          "image": "image.jpg"
+          "option": "La actividad y la acción"
         }
       ]
     },
