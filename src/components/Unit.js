@@ -313,7 +313,10 @@ const Unit = () => {
 
   return (
     <div className="p-4 h-600">
-      <h2 className="text-4xl font-bold mb-4">{unitData.name} {unitData.description}</h2>
+      <div className="flex">
+        <img src={"../assets/HumaniTeens.png"} class=" object-left-top bg-yellow-300 h-16 ..."/>
+        <h2 className="text-4xl font-bold h-16 ml-4 mt-3">{unitData.name} {unitData.description}</h2>
+      </div>
 
       {!examIsComplete && (
       <div className="bg-white p-4 shadow-md rounded-md h-[500px]">

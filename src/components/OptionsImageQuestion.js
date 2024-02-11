@@ -10,7 +10,7 @@ const OptionsImageQuestion = ({ data, onAnswerSelect, selectedAnswer }) => {
                     <div
                         key={index}
                         className={`${
-                        option.id === selectedAnswer ? 'bg-green-500' : 'bg-blue-500'
+                        option.id === selectedAnswer ? 'bg-violet-600' : 'bg-blue-500'
                         } p-4 text-white rounded-lg shadow-md flex flex-col items-center cursor-pointer transition duration-300 transform hover:scale-105`}
                         onClick={() => onAnswerSelect(option.id)}
                     >
