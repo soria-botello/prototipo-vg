@@ -9,7 +9,7 @@
       {
         "id": 1,
         "type": "true-false-text",
-        "question": "Es la disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.Disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.",
+        "question": "Es la disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.",
         "answer": true,
         "options":[
           {
@@ -27,7 +27,7 @@
       {
         "id": 2,
         "type": "true-false-image",
-        "question": "La argumentaación, tiene como fin persuadir al destinatario del punto de vista que se tiene sobre un asunto, o bien convencerlo de la falsedad o veracidad de una teoría, para lo cual debe aportar determinadas razones.",
+        "question": "La argumentación, tiene como fin persuadir al destinatario del punto de vista que se tiene sobre un asunto, o bien, convencerlo de la falsedad o veracidad de una teoría, para lo cual debe aportar determinadas razones.",
         "answer": true,
         "options":[
             {
@@ -98,7 +98,7 @@
         "options":[
           {
             "id": 1,
-            "option": "Cuestionar",
+            "option": "Persuadir",
             "value": true
           },
           {
@@ -111,8 +111,8 @@
       {
         "id": 6,
         "type": "true-false-image",
-        "question": "Significa estar de acuerdo con una afirmación.",
-        "answer": true,
+        "question": "Convencer, significa no estar de acuerdo con una afirmación.",
+        "answer": false,
         "options":[
           {
             "id": 1,
@@ -130,7 +130,7 @@
         "id": 7,
         "type": "options-text",
         "question": "Dudar de cierta información.",
-        "answer": 1,
+        "answer": 3,
         "options": [
           {
             "id": 1,
@@ -142,7 +142,7 @@
           },
           {
             "id": 3,
-            "option": "Convencer"
+            "option": "Cuestionar"
           },
           {
             "id": 4,
@@ -183,19 +183,19 @@
           {
             "id": 1,
             "option": "Convencer",
-            "value": true
+            "value": false
           },
           {
             "id": 2,
-            "option": "Polemizar",
-            "value": false
+            "option": "Deliberar",
+            "value": true
           }
         ]
       },
       {
         "id": 10,
         "type": "true-false-image",
-        "question": "Hacer visible que determinada cosa es verdad o se cumple generalmente por medio de algún razonamiento o acción.",
+        "question": "Demostrar es hacer visible que determinada cosa es verdad o se cumple generalmente por medio de algún razonamiento o acción.",
         "answer": true,
         "options":[
           {
@@ -279,7 +279,7 @@
       {
         "id": 14,
         "type": "true-false-image",
-        "question": "Comunicación asertiva: sucede cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.Cuando argumentamos correctamente es aquel tipo de comunicación que nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.",
+        "question": "Comunicación asertiva: sucede cuando argumentamos correctamente y nos permite analizar y someter a evaluación constante nuestras ideas, sentimientos y emociones.",
         "answer": true,
         "options":[
           {
@@ -363,7 +363,7 @@
       {
         "id": 18,
         "type": "true-false-image",
-        "question": "La Fase de confrontación:es aquella fase dentro del diálogo argumentativo donde el problema del diálogo debe ser anunciado o acordado para que sea clara cuál es la meta del diálogo.",
+        "question": "La Fase de confrontación: es aquella fase dentro del diálogo argumentativo donde el problema debe ser anunciado o acordado para que sea clara cuál es la meta de dicha conversación.",
         "answer": true,
         "options":[
           {

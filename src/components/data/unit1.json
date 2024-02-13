@@ -111,7 +111,7 @@
     {
       "id": 6,
       "type": "true-false-image",
-      "question": "Selecciona si Heráclito es el filósofo que nos dice que los hombres somos accedemos al mundo de manera parcial y restringida, a través de impresiones que le muestran las cosas de manera superficial.",
+      "question": "Selecciona si Heráclito es el filósofo que nos dice que los hombres accedemos al mundo de manera parcial y restringida, a través de impresiones que le muestran las cosas de manera superficial.",
       "answer": true,
       "options":[
         {
@@ -153,7 +153,7 @@
     {
       "id": 8,
       "type": "options-image",
-      "question": "La pasión son aquellas energías positivas que te ayudan a crecer y vivir de una manera plena. Elije el emoji que más se relaciona.",
+      "question": "La pasión es aquella energía positiva que te ayuda a crecer y vivir de una manera plena. Elije el emoji que más se relaciona.",
       "answer": 3,
       "options": [
         {
@@ -195,7 +195,7 @@
     {
       "id": 10,
       "type": "true-false-image",
-      "question": " Selecciona si la FILOSOFÍA, significa, Amor a la sabiduría.",
+      "question": " ¿La FILOSOFÍA significa Amor a la sabiduría?",
       "answer": true,
       "options":[
         {
@@ -261,7 +261,7 @@
     {
       "id": 13,
       "type": "true-false-text",
-      "question": "Selecciona la opción correcta. Hacerte consiente de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas",
+      "question": "Selecciona la opción correcta. Hacerte consciente de las cosas buenas que tienes en tu vida y expresar agradecimiento por ellas",
       "answer": true,
       "options":[
         {
@@ -279,7 +279,7 @@
     {
       "id": 14,
       "type": "true-false-image",
-      "question": "Regulación emocional, es aprender de tus emociones de manera saludable, reconocerlas, aceptarlas y expresarlas de manera asertiva y gestionar constructivamente aquellas que son placenteras, es la definición de:",
+      "question": "Regulación emocional, es aprender de tus emociones de manera saludable, reconocerlas, aceptarlas y expresarlas de manera asertiva y gestionar constructivamente aquellas que son placenteras.",
       "answer": true,
       "options":[
         {
@@ -350,12 +350,12 @@
       "options":[
         {
           "id": 1,
-          "option": "Vengativa, Sensitiva y racional",
+          "option": "Vengativa, Sensitiva y Racional",
           "value": true
         },
         {
           "id": 2,
-          "option": "Generocidad, Sensible y Justo",
+          "option": "Generosidad, Sensible y Justo",
           "value": false
         }
       ]

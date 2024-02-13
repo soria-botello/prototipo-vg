@@ -19,7 +19,7 @@
         },
         {
             "id": 2,
-            "option": "Filosofía",
+            "option": "Felicidad",
             "value": false
         }
       ]
@@ -27,7 +27,7 @@
     {
       "id": 2,
       "type": "true-false-image",
-      "question": "Loss actos humanos, son acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
+      "question": "Los actos humanos, son acciones libres que el ser humano realiza porque lo desea y son consecuencia de su razón y voluntad, estas acciones se llevan a cabo por un fin y en último término por la felicidad y libertad.",
       "answer": true,
       "options":[
           {
@@ -93,7 +93,7 @@
     {
       "id": 5,
       "type": "true-false-text",
-      "question": "Surgen a partir de la división social del trabajo de la propiedad privada de los medios de producción y de la explotación de hombre por el hombre.",
+      "question": "Surgen a partir de la división social del trabajo, de la propiedad privada, de los medios de producción y de la explotación de hombre por el hombre.",
       "answer": true,
       "options":[
         {
@@ -237,7 +237,7 @@
     {
       "id": 12,
       "type": "options-image",
-      "question": "Eudemonismo es la teoria ética propuesta por Aristóteles, la cual nos dice que el bien es el medio para llegar a algo y al mismo tiempo se refiere al bien como fin, es decir, el bien que desea por sí mismo, selecciona el emoji que más relacione.",
+      "question": "Eudemonismo es la teoria ética propuesta por Aristóteles, la cual nos dice que el bien es el medio para llegar a algo y al mismo tiempo se refiere al bien como fin, es decir, el bien que desea por sí mismo. Selecciona el emoji que más relacione.",
       "answer": 1,
       "options": [
         {
@@ -321,7 +321,7 @@
     {
       "id": 16,
       "type": "options-text",
-      "question": "En la filosofía aristotélica, la potencia  se relaciona la potencia a: ",
+      "question": "En la filosofía aristotélica, la potencia  se relaciona a: ",
       "answer": 2,
       "options": [
         {
@@ -347,7 +347,7 @@
         },
         {
           "id": 2,
-          "option": "Generocidad, Sensible y Justo",
+          "option": "Destrucción y castigo por los pecados del hombre",
           "value": false
         }
       ]
@@ -386,7 +386,7 @@
         },
         {
             "id": 3,
-            "option": "De da una vez que se ha establecido la condición de verdad mediante la prueba."
+            "option": "Se da una vez que se ha establecido la condición de verdad mediante la prueba."
         },
         {
             "id": 4,
