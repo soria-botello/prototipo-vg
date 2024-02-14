@@ -237,7 +237,7 @@
       {
         "id": 12,
         "type": "options-image",
-        "question": "Selecciona el emogi basado en uno de los puntos para construir un argumento.",
+        "question": "Selecciona el emoji basado en uno de los puntos para construir un argumento.",
         "answer": 1,
         "options": [
           {
@@ -321,7 +321,7 @@
       {
         "id": 16,
         "type": "options-image",
-        "question": "Antropología cultural, es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales. Selecciona el emogi que más se asemeje.",
+        "question": "Antropología cultural, es aquel tipo de antropología que se centra en el estudio de las sociedades y culturas humanas, incluyendo sus prácticas, creencias, valores, sistemas de parentesco y relaciones sociales. Selecciona el emoji que más se asemeje.",
         "answer": 4,
         "options": [
           {
