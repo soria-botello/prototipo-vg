@@ -3,13 +3,13 @@
     "id": 1,
     "image": "uno.jpg",
     "title": "El universo de sabiduría"
-  },
+  }, 
   {
     "id": 2,
     "image": "dos.jpg",
     "title": "El universo mágico"
   },
-  {
+  { 
     "id": 3,
     "image": "tres.jpg",
     "title": "El universo encantado"

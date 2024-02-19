@@ -6,7 +6,7 @@
         "type": "name-question",
         "question": "Ingresa tus datos"
       },
-      {
+      { 
         "id": 1,
         "type": "true-false-text",
         "question": "Es la disciplina que se ocupa de la producción y estudio de obras literarias como poemas, cuentos, novelas, ensayos, obras de teatro o cualquier otra forma de expresión escrita que utilice la lengua como medio de comunicación y tenga una finalidad estética y/o artística.",
@@ -420,7 +420,7 @@
       },
       {
         "type": "open-question",
-        "question": "¿Qué significa Filosofia?"
+        "question": "¿Qué opinas sobre el siguiente video?"
       }
     ]
   }

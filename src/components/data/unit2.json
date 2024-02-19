@@ -6,7 +6,7 @@
       "type": "name-question",
       "question": "Ingresa tus datos"
     },
-    {
+    { 
       "id": 1,
       "type": "true-false-text",
       "question": "Sensación de bienestar o satisfacción que experimenta el ser humano en respuesta a ciertos estímulos; puede ser una experiencia física o mental y puede variar en intensidad y duración.",
@@ -420,7 +420,7 @@
     },
     {
       "type": "open-question",
-      "question": "¿Qué significa Filosofia?"
+      "question": "¿Qué opinas sobre el siguiente video?"
     }
   ]
 }

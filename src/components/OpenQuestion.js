@@ -9,7 +9,7 @@ const OpenQuestion = ({ data, videoData, text, setText, handleExamData }) => {
 
     return (
         <div className="bg-white p-4 rounded-lg">
-            <div className="text-xl font-semibold mb-4">Pregunta final: {data.question}</div>
+            <div className="text-xl font-semibold mb-4">Reflexión: {data.question}</div>
             <div className="text-xl font-semibold mb-4">Video: {videoData.title}</div>
             <div className="grid grid-cols-1 justify-items-center">
                 <div className="mb-4">
@@ -21,7 +21,7 @@ const OpenQuestion = ({ data, videoData, text, setText, handleExamData }) => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
                 </iframe>
-                </div>
+                </div> 
             </div>
             <div className="grid grid-cols-1">
                 <div className="mb-4">
